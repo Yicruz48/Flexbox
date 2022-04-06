@@ -1,0 +1,64 @@
+/*FONTS IMPORTED*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,700;1,400&display=swap');
+
+/*BACKGROUND*/
+
+body{
+  background: #F0EFE2;
+}
+
+.header-bar{
+  background: #3C9099;
+}
+
+.container{
+  background: #5FBDB0;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    padding: 2px;
+   
+}
+
+/*TEXT STYLING*/
+
+h1{
+  font-family: Roboto Condensed;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 56px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+nav{
+  font-family: Roboto Condensed;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+text-align: center;
+text-transform: uppercase;
+color: #41646E; 
+}
+  
+ul{
+  display: flex;
+  list-style:none;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex: 1 1 100px;
+}
+
+li{
+  background-color: #FCF9EC;
+  padding: 20px;
+  border-radius: 5px;
+
+  text-align: center;
+  margin: 6px;
+}
+
+.other{
+  width: 380px;
+}
